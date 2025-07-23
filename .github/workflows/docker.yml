@@ -29,6 +29,6 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: ${{ secrets.DOCKER_USERNAME }}/project:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/cicd_project3:latest
 
 
