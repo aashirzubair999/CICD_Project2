@@ -29,6 +29,6 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: aashir84/project:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/project:latest
 
 
